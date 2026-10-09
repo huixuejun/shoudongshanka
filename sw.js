@@ -1,4 +1,4 @@
-const VER = 'slideshow-v6';
+const VER = 'slideshow-v7';
 const CACHE = 'slideshow-' + VER;
 const ASSETS = [
   './',
