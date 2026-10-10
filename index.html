@@ -15,7 +15,7 @@ html,body{height:100%;background:#000;overflow:hidden;user-select:none;-webkit-u
 
 /* 图片 */
 #pic{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-     max-width:100vw;max-height:100vh;object-fit:contain;opacity:0;transition:opacity .35s ease}
+     max-width:100vw;max-height:100vh;object-fit:contain;opacity:0;transition:opacity .15s ease}
 #pic.show{opacity:1}
 
 /* 底部计数器 */
@@ -59,7 +59,7 @@ html,body{height:100%;background:#000;overflow:hidden;user-select:none;-webkit-u
 
 <!-- 开始界面 -->
 <div id="startScreen" class="overlay">
-  <h1>📷 佑德随机闪卡</h1>
+  <h1>📷 佑德随机闪卡1-50</h1>
   <button class="btn" id="startBtn">开始播放</button>
   <p class="sub" id="info"></p>
 </div>
@@ -84,10 +84,10 @@ html,body{height:100%;background:#000;overflow:hidden;user-select:none;-webkit-u
 
 <script>
 /* ==================== 只改这里 ==================== */
-const TOTAL = 72;   // ★图片总张数（必须与实际一致）
+const TOTAL = 50;   // ★图片总张数（必须与实际一致）
 /* ================================================= */
 
-// 生成文件列表：images/img (1).jpg ~ images/img (72).jpg
+// 生成文件列表：images/img (1).jpg ~ images/img (50).jpg
 function buildFiles(){
   const arr = [];
   for(let n = 1; n <= TOTAL; n++){
